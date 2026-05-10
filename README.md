@@ -30,3 +30,27 @@ O objetivo principal é correlacionar o volume de atendimentos ambulatoriais com
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/Blimbliem/analise-saude-santo-andre.git](https://github.com/Blimbliem/analise-saude-santo-andre.git)
+
+### 2. Pré-requisitos
+Certifique-se de ter o **Python 3.13** (ou superior) instalado.
+
+### 3. Instalação das Dependências
+Abra o seu terminal na pasta do projeto e execute o comando abaixo para instalar as bibliotecas necessárias:
+
+```bash
+   pip install pandas matplotlib seaborn pyarrow
+```
+### 4. Instalação das Dependências
+Para gerar a base de dados unificada:
+```
+  python tratamento_qtd_valor.py
+```
+
+Para visualizar os gráficos financeiros:
+```
+  python visualizacao_financeira.py
+```
+
+
+ 
+
